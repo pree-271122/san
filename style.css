@@ -1,0 +1,66 @@
+*{
+    background:linear-gradient(to right,pink,white,hotpink,pink);
+}
+.reservation{
+    background: rgb(2, 2, 94);
+    width:300px;
+    height:400px;
+    padding:50px ;
+    margin: 60px;
+    opacity: 1;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.reservation:hover{
+    opacity: 0.8;
+}
+input[type="text"]{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    background: white;   
+}
+input[type="text"]:focus{
+    background: lightgrey; 
+}
+input[type="password"]{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    background: white;   
+}
+input[type="password"]:focus{
+    background: lightgrey; 
+}
+#area{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    background: white;  
+}
+#area:focus{
+    background: lightgrey; 
+}
+.but{
+    width:30%;
+    padding: 10px;
+    background: white;
+    font-size:20px;
+    margin: 5px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.but:hover{
+    background: lightgrey; 
+}
+.reservation h2{
+    text-align: center;
+    color: white;
+}
+.reservation p{
+    text-align: center;
+    color: white;
+}
